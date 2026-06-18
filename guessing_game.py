@@ -1,5 +1,4 @@
 import random
-
 while True:
 
     print("\nWelcome to the Number Guessing Game!")
