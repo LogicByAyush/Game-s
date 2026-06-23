@@ -6,7 +6,6 @@ choices = {
     "s": "Scissors"
 }
 
-
 def get_player_choice():
     while True:
         choice = input("\nR for Rock\nP for Paper\nS for Scissors\nEnter your choice: ").lower()
@@ -16,10 +15,8 @@ def get_player_choice():
 
         print("Invalid choice! Please enter R, P, or S.")
 
-
 def get_computer_choice():
     return random.choice(["r", "p", "s"])
-
 
 def check_winner(player, computer):
     if player == computer:
@@ -34,9 +31,7 @@ def check_winner(player, computer):
 
     return "computer"
 
-
 player_name = input("Enter your name: ")
-
 player_score = 0
 computer_score = 0
 
